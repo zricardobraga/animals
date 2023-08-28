@@ -1,0 +1,83 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding: 40px 0 0;
+}
+.main .formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-top: 100px;
+}
+.main .formContainer .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.main .formContainer .content h2 {
+  color: #FFFFF0;
+}
+.main .formContainer .content form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+.main .formContainer .content form .input {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main .formContainer .content form .input input {
+  width: 400px;
+  height: 50px;
+  border-radius: 9px;
+  border: none;
+  padding: 10px;
+  background-color: #353535;
+}
+.main .formContainer .content form .input .validator {
+  display: none;
+  color: #ff0000;
+}
+.main .formContainer .content form .button {
+  width: 250px;
+  height: 40px;
+  background-color: #36CE7C;
+  border: none;
+  border-radius: 9px;
+}
+.main .listContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  overflow-y: scroll;
+}
+.main .listContainer .cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  gap: 10px;
+}
+.main .listContainer .listName {
+  margin: 40px 0 40px;
+}/*# sourceMappingURL=app.module.css.map */

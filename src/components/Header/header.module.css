@@ -1,0 +1,21 @@
+@import 'animate.css';
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  padding: 0 0 0 50px;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #151515;
+  animation: bounceInDown;
+  animation-duration: 2s;
+}
+.content a {
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFFFF0;
+}/*# sourceMappingURL=header.module.css.map */
